@@ -62,3 +62,16 @@ form { display: grid; gap: 1rem; }
   .toolbar, .product-grid { grid-template-columns: 1fr; }
   .cart-item { grid-template-columns: 1fr; }
 }
+
+/* Grounded assistant */
+.field-hint { color: #52606d; font-size: .85rem; margin: .4rem 0 .8rem; }
+.assistant-loading { color: #115e59; font-weight: 700; }
+.answer-badge { display: inline-block; border-radius: 999px; padding: .2rem .7rem; font-size: .78rem; font-weight: 800; margin: 0 0 .6rem; }
+.answer-badge.ai { background: #e6fffb; color: #115e59; }
+.answer-badge.rules { background: #f1f5f9; color: #334155; }
+.assistant-text { line-height: 1.6; }
+.recommendations a { display: flex; flex-direction: column; gap: .2rem; }
+.recommendation-meta { color: #52606d; font-size: .82rem; font-weight: 500; }
+.assistant-sources { margin-top: 1rem; font-size: .9rem; }
+.assistant-sources summary { cursor: pointer; font-weight: 800; }
+.assistant-sources ul { margin: .5rem 0 0; padding-left: 1.2rem; }
